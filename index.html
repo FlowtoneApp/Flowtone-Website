@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#171D36" />
+    <meta name="description" content="Flowtone 声流，一款更舒适的 Android 音乐播放器。" />
+    <title>Flowtone — 声流</title>
+    <link rel="icon" type="image/svg+xml" href="assets/flowtone-icon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="cloud-field" aria-hidden="true">
+        <span class="cloud-sheet"></span>
+      </div>
+
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="Flowtone 首页"><img src="assets/flowtone-icon.svg" alt="" /><span>flowtone</span></a>
+        <nav class="topnav" aria-label="主导航">
+          <a href="#library">本地音乐</a><a href="#lyrics">同步歌词</a><a href="#playlists">歌单</a><a href="#open">开放扩展</a>
+        </nav>
+        <a class="nav-cta" href="https://github.com/FlowtoneApp/Flowtone/releases" target="_blank" rel="noreferrer">下载 <span>↗</span></a>
+      </header>
+
+      <main>
+        <div class="phone-journey">
+          <div class="journey-content">
+            <section class="hero story-page" id="home" data-phone-screen="home">
+              <div class="hero-copy reveal">
+                <div class="eyebrow"><span class="live-dot"></span> 声流 · ANDROID MUSIC PLAYER</div>
+                <h1>让喜欢的歌，<br /><span>自在流动。</span></h1>
+                <p class="hero-description">本地音乐、同步歌词与开放来源。<br />把听歌，留给音乐本身。</p>
+                <div class="hero-actions"><a class="button button-light" href="https://github.com/FlowtoneApp/Flowtone/releases" target="_blank" rel="noreferrer">获取 Android 版 <span>↗</span></a><a class="button button-outline" href="#library">认识 Flowtone <span>↓</span></a></div>
+                <div class="hero-meta"><span>ANDROID 9+</span><i></i><span>OPEN SOURCE · GPL-3.0</span></div>
+              </div>
+              <a class="scroll-cue" href="#intro"><span>往下听</span><i>↓</i></a>
+            </section>
+
+            <section class="intro reveal" id="intro" data-phone-screen="intro">
+              <div class="section-index"><span>FLOWTONE / 01</span><span class="index-line"></span><span>LISTEN IN YOUR OWN WAY</span></div>
+              <div class="intro-row"><h2>一处安放，<br /><span>所有喜欢。</span></h2><p>从设备里的音乐开始，也可以连接你选择的来源。熟悉的收藏与播放体验，始终在同一个地方。</p></div>
+              <div class="intro-ribbon"><span>本地优先</span><i>✳</i><span>跨来源歌单</span><i>✳</i><span>播放体验由你掌控</span></div>
+            </section>
+
+            <section class="story-page feature-page scene-page scene-split-page" id="library" data-phone-screen="library">
+              <div class="scene-layout scene-split reveal">
+                <div class="scene-copy-left">
+                  <div class="section-index"><span>01 / LIBRARY</span><span class="index-line"></span><span>YOUR COLLECTION</span></div>
+                  <h2>你的音乐，<br /><span>清晰归位。</span></h2>
+                </div>
+                <div class="scene-copy-right">
+                  <p>读取设备音乐库。专辑、艺术家和歌曲队列，熟悉而有序。播放继续在后台，从此刻延伸到下一刻。</p>
+                  <div class="feature-points"><span>本地扫描</span><span>专辑封面</span><span>后台播放</span></div>
+                  <div class="page-counter"><b>01</b><i></i><span>04</span></div>
+                </div>
+              </div>
+            </section>
+
+            <section class="story-page feature-page lyrics-page" id="lyrics" data-phone-screen="lyrics">
+              <div class="feature-copy reveal">
+                <div class="section-index"><span>02 / LYRICS</span><span class="index-line"></span><span>WORDS IN TIME</span></div>
+                <h2>每一句，<br /><span>都落在此刻。</span></h2>
+                <p>导入本地 LRC 歌词，同步滚动、双语显示。轻点一句，就回到那一刻。</p>
+                <div class="feature-points"><span>逐行同步</span><span>双语歌词</span><span>点击跳转</span></div>
+                <div class="page-counter"><b>02</b><i></i><span>04</span></div>
+              </div>
+            </section>
+
+            <section class="story-page feature-page playlist-page" id="playlists" data-phone-screen="playlist">
+              <div class="feature-copy reveal">
+                <div class="section-index"><span>03 / PLAYLISTS</span><span class="index-line"></span><span>MADE BY YOU</span></div>
+                <h2>喜欢与歌单，<br /><span>由你定义。</span></h2>
+                <p>收藏每首喜欢的歌，创建自己的歌单。本地与在线歌曲，也可以自在共存。</p>
+                <div class="feature-points"><span>我的喜欢</span><span>自定义歌单</span><span>混合来源</span></div>
+                <div class="page-counter"><b>03</b><i></i><span>04</span></div>
+              </div>
+            </section>
+
+            <section class="story-page feature-page scene-page scene-split-page" id="open" data-phone-screen="open">
+              <div class="scene-layout scene-split reveal">
+                <div class="scene-copy-left">
+                  <div class="section-index"><span>04 / OPEN</span><span class="index-line"></span><span>MUSIC WITHOUT BORDERS</span></div>
+                  <h2>音乐来源，<br /><span>由你选择。</span></h2>
+                </div>
+                <div class="scene-copy-right">
+                  <p>Flowtone 不绑定任何平台。通过开放扩展，连接你自己的音乐来源。</p>
+                  <div class="feature-points"><span>开放 Provider</span><span>本地优先</span><span>GPL-3.0</span></div>
+                  <div class="page-counter"><b>04</b><i></i><span>04</span></div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="shared-stage" aria-label="Flowtone 应用界面预览">
+            <div class="stage-orbit stage-orbit-one" aria-hidden="true"></div><div class="stage-orbit stage-orbit-two" aria-hidden="true"></div>
+            <img class="stage-icon" src="assets/flowtone-icon.svg" alt="Flowtone 应用图标" />
+            <div class="stage-label"><span id="stageLabel">YOUR SOUNDSPACE</span><span>FLOWTONE · 2026</span></div>
+            <div class="device" id="sharedDevice">
+              <div class="device-back" aria-hidden="true">
+                <div class="back-cameras"><i></i><i></i><i></i><span></span></div>
+                <div class="back-logo"><img src="assets/flowtone-icon.svg" alt="" /></div>
+                <div class="back-wordmark">FLOWTONE</div>
+                <div class="back-submark">SOUND IN MOTION</div>
+                <div class="back-bottom"><span>DESIGNED TO FLOW</span><i></i></div>
+              </div>
+              <div class="device-bezel">
+                <div class="device-island"></div>
+                <div class="phone-status"><span>9:41</span><span class="status-icons"><i></i><i></i><i></i></span></div>
+                <div class="phone-content" id="phoneContent"></div>
+                <div class="phone-home-indicator"></div>
+              </div>
+            </div>
+            <div class="stage-caption"><span class="caption-dot"></span><span id="stageCaption">MADE FOR LISTENING</span><b>↗</b></div>
+          </aside>
+        </div>
+
+        <section class="download-section section-wrap reveal" id="download">
+          <img src="assets/flowtone-icon.svg" alt="" />
+          <div class="download-copy"><span>READY WHEN YOU ARE</span><h2>开始听，<em>自在一点。</em></h2><p>Android 9 及以上 · 开源免费</p></div>
+          <a class="button button-dark" href="https://github.com/FlowtoneApp/Flowtone/releases" target="_blank" rel="noreferrer">前往 Releases <span>↗</span></a>
+        </section>
+      </main>
+
+      <footer class="site-footer section-wrap">
+        <a class="brand footer-brand" href="#home"><img src="assets/flowtone-icon.svg" alt="" /><span>flowtone</span></a>
+        <span>声流 · 更舒适的音乐播放器</span>
+        <a href="https://github.com/FlowtoneApp/Flowtone" target="_blank" rel="noreferrer">GITHUB ↗</a>
+        <span>© FLOWTONE · GPL-3.0</span>
+      </footer>
+    </div>
+  </body>
+</html>
